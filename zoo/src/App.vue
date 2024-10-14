@@ -3,6 +3,7 @@ import PocetNavstevniku from './components/PocetNavstevniku.vue';
 import ComputedPromenna from './components/ComputedPromenna.vue';
 import DirektivaOn from './components/DirektivaOn.vue';
 import DirektivaBind from './components/DirektivaBind.vue';
+import DirektivaShowIf from './components/DirektivaShowIf.vue';
 </script>
 
 
@@ -27,6 +28,9 @@ import DirektivaBind from './components/DirektivaBind.vue';
       <DirektivaBind />
     </div>
 
+    <div class="karta">
+      <DirektivaShowIf />
+    </div>
 
   </div>
 </template>
